@@ -1,0 +1,82 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf6f9;
+}
+
+.messenger {
+    width: 96%;
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 5px;
+    padding-top: 0;
+    background-color: #006d77;
+    border-radius: 7px 7px 0 0;
+}
+
+.messenger-incoming-title {
+    margin: 0;
+    padding: 15px 30px;
+    color: #edf6f9;
+}
+
+.messenger-incoming-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    min-height: 30px;
+    padding: 10px 20px;
+    background: #83c5be;
+}
+
+.messenger-incoming-messages::before {
+    display: block;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    content: 'No messages...';
+    z-index: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #006d77;
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
+
+.messenger-message-container {
+    z-index: 1;
+}
+
+.messenger-message {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #edf6f9;    
+}
+
+.messenger-message-from, .messenger-message-subject, .messenger-message-date {
+    padding: 5px 15px;
+}
+
+.messenger-message-subject {
+    flex: 1;
+}
+
+.messenger-message-date {
+    flex-shrink: 0;
+    border-left: 4px solid #83c5be;
+}
+
+.messenger-message-from {
+    flex: 1;
+    background: #006d77;
+    border: 2px solid #edf6f9;
+}
+
+.messenger-message-from-mail {
+    color: #edf6f9;
+    text-decoration: none;
+    font-style: normal;
+}
