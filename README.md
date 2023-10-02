@@ -1,5 +1,5 @@
-# Домашнее задание к занятию "7. Работа с HTTP"
-[GitHub Pages](https://fdm1try.github.io/hw-ajs-http/)
+# Домашнее задание к занятию "11. RxJS"
+[GitHub Pages](https://fdm1try.github.io/hw-ajs-rxjs/)
 
 ## AppVeyor
-[![Build status](https://ci.appveyor.com/api/projects/status/j6bmes399a7535w2?svg=true)](https://ci.appveyor.com/project/fdm1try/hw-ajs-http)
+
